@@ -1,6 +1,10 @@
 # Emotion-Recognition-using-Speech
 ## Team members: Sanika Karwa, Darshan Pirgal, Amartyadev Bhattacharyya
 
+In this project, we aim to detect 7 different emotions from speech signals using various
+feature extractors like Mel Frequency Cepstral Coefficients (MFCC) and Chroma using classification models
+like Deep Neural Networks (CNNs), Support Vector Machines (SVM) and Multi-Layer Perceptron (MLP)
+
 # To run the code:
 $ cd /required_directory
 
@@ -19,6 +23,6 @@ Datasets Used:
 1. RAVDESS
 2. TESS 
 
-The MFCC's of both the datasets are combined and stored in the datasets folder.
+The MFCC's of both the datasets are combined and stored in the datasets_combined folder.
 The extracted features are stored in the features folder.
 The pre-trained models can be used for testing the model.
